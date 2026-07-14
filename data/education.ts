@@ -1,9 +1,9 @@
 const education = [
   {
     degree: 'B.Tech in Computer Engineering',
-    institution: 'Vishwakarma Institute of Technology, Pune',
-    cgpa: '8.2',
-    graduation: 'Expected June 2025',
+    institution: 'Savitribai Phule Pune University',
+    cgpa: '8.0',
+    graduation: 'June 2026',
     coursework: [
       'Operating Systems',
       'Computer Networks',

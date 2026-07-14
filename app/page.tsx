@@ -42,26 +42,26 @@ export default function Page() {
           <GithubSection />
         </AnimatedSection>
       </section>
-      <section id="experience" style={{ marginTop: 48 }}>
+      {/* <section id="experience" style={{ marginTop: 48 }}>
         <AnimatedSection delay={0.2}>
           <Experience />
         </AnimatedSection>
-      </section>
+      </section> */}
       <section id="education" style={{ marginTop: 48 }}>
         <AnimatedSection delay={0.2}>
           <Education />
         </AnimatedSection>
       </section>
-      <section id="certificates" style={{ marginTop: 48 }}>
+      {/* <section id="certificates" style={{ marginTop: 48 }}>
         <AnimatedSection delay={0.2}>
           <Certificates />
         </AnimatedSection>
-      </section>
-      <section id="achievements" style={{ marginTop: 48 }}>
+      </section> */}
+      {/* <section id="achievements" style={{ marginTop: 48 }}>
         <AnimatedSection delay={0.2}>
           <Achievements />
         </AnimatedSection>
-      </section>
+      </section> */}
       <section id="contact" style={{ marginTop: 48 }}>
         <AnimatedSection delay={0.2}>
           <Contact />

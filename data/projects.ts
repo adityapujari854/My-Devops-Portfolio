@@ -1,51 +1,31 @@
 const projects = [
   {
-    title: 'AI DevOps Assistant ⭐⭐⭐⭐⭐',
-    description: 'AI-powered operational assistant for intelligent DevOps automation, log analysis, root cause analysis, and infrastructure troubleshooting.',
-    image: '/projects/ai-devops.jpg',
-    features: [
-      'AI Root Cause Analysis',
-      'Jenkins Log Summarization',
-      'Docker Troubleshooting',
-      'Kubernetes Error Explanations',
-      'Linux Command Generator',
-      'Incident Summary Generation'
-    ],
-    stack: ['FastAPI', 'Docker', 'GitHub Actions', 'AWS EC2', 'Redis', 'LLM API'],
-    github: 'https://github.com/adityapujari/ai-devops-assistant',
-    demo: '#'
-  },
-  {
-    title: 'Nimbus AI Platform',
-    description: 'Full-stack productivity platform showcasing modern DevOps practices with containerization, CI/CD automation, and AI-powered features.',
+    title: 'Nimbus AI – Multi-Agent System',
+    description: 'Built AI application using FastAPI and Docker for conversational workflows with integrated ChromaDB for memory storage and contextual retrieval.',
     image: '/projects/nimbus.jpg',
     features: [
-      'Docker Compose Setup',
-      'GitHub Actions CI/CD',
-      'Nginx Reverse Proxy',
-      'Redis Caching',
-      'ChromaDB Vector Memory',
+      'Conversational Workflows',
+      'FastAPI APIs',
+      'Memory Storage',
+      'Contextual Retrieval',
+      'Docker Containerization',
       'AWS Deployment'
     ],
-    stack: ['FastAPI', 'Docker Compose', 'Nginx', 'Redis', 'ChromaDB', 'AWS'],
-    github: 'https://github.com/adityapujari/nimbus-ai',
-    demo: '#'
+    stack: ['Python', 'FastAPI', 'Docker', 'AWS', 'ChromaDB']
   },
   {
-    title: 'Terraform AWS Infrastructure',
-    description: 'Complete Infrastructure-as-Code solution for provisioning production-grade AWS infrastructure with modular Terraform modules.',
-    image: '/projects/terraform.jpg',
+    title: 'CI/CD Pipeline with Jenkins',
+    description: 'Built CI/CD pipeline using Jenkins and GitHub reducing manual deployment steps by 50% with automated build and deployment workflows on AWS EC2.',
+    image: '/projects/cicd-jenkins.jpg',
     features: [
-      'VPC with Multi-AZ',
-      'Security Groups',
-      'EC2 Instances',
-      'RDS Database',
-      'Load Balancing',
-      'Auto-Scaling'
+      'Jenkins Automation',
+      '50% Manual Step Reduction',
+      'Automated Deployment',
+      'Docker Containerization',
+      'AWS EC2 Deployment',
+      'Improved Consistency'
     ],
-    stack: ['Terraform', 'AWS', 'Bash', 'Git'],
-    github: 'https://github.com/adityapujari/terraform-aws-infra',
-    demo: '#'
+    stack: ['Jenkins', 'Docker', 'GitHub', 'AWS']
   },
   {
     title: 'Kubernetes Monitoring Stack',
@@ -59,25 +39,7 @@ const projects = [
       'Custom Alerts',
       'Log Aggregation'
     ],
-    stack: ['Kubernetes', 'Prometheus', 'Grafana', 'AlertManager', 'Docker'],
-    github: 'https://github.com/adityapujari/k8s-monitoring',
-    demo: '#'
-  },
-  {
-    title: 'CI/CD Pipeline with Jenkins',
-    description: 'Production-style CI/CD pipeline with automated testing, Docker builds, and AWS deployments.',
-    image: '/projects/cicd.jpg',
-    features: [
-      'Automated Testing',
-      'Docker Image Build',
-      'SonarQube Analysis',
-      'Registry Push',
-      'AWS Deployment',
-      'Slack Notifications'
-    ],
-    stack: ['Jenkins', 'Docker', 'GitLab CI', 'SonarQube', 'AWS', 'Ansible'],
-    github: 'https://github.com/adityapujari/jenkins-pipeline',
-    demo: '#'
+    stack: ['Kubernetes', 'Prometheus', 'Grafana', 'AlertManager', 'Docker']
   }
 ];
 
