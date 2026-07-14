@@ -108,7 +108,7 @@ Open **http://localhost:3000** in your browser.
 
 * GitHub: https://github.com/adityapujari854
 * LinkedIn: https://www.linkedin.com/in/adityapujari
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* Email: [adityapujari542@gmail.com](mailto:adityapujari542@gmail.com)
 
 ---
 
