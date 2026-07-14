@@ -314,3 +314,100 @@ a:hover {
     max-height: 240px !important;
   }
 }
+
+/* GitHub section specific styles */
+.github-section {
+  margin-top: 8px;
+}
+
+.github-section .glass-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.github-section .repo-card {
+  display: block;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  padding: 12px;
+  border-radius: 10px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.github-section .repo-card:hover {
+  transform: translateY(-6px);
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00));
+  box-shadow: 0 12px 30px rgba(0,0,0,0.28);
+  border-color: var(--accent);
+}
+
+.text-muted-foreground {
+  color: var(--text-muted);
+}
+
+/* Simple pulse loader (used where `animate-pulse` class is referenced) */
+.animate-pulse {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.45; }
+  100% { opacity: 1; }
+}
+
+/* Responsive tweaks for the GitHub section */
+@media (max-width: 768px) {
+  .github-section .repo-card { padding: 10px; }
+  .github-section .md\:w-96 { width: 100%; }
+}
+
+/* Minimal, professional GitHub section */
+.github-min {
+  background: transparent;
+  padding: 0;
+}
+
+.github-min .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.github-min h2 { font-size: 20px; margin: 0; }
+.github-min p.subtitle { margin: 4px 0 12px 0; color: var(--text-muted); font-size: 13px; }
+
+.github-min .stat-row { display:flex; gap:12px; align-items:center; }
+.github-min .stat-chip {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.github-min .main-grid { display:grid; grid-template-columns: 1fr 360px; gap:20px; align-items:start; }
+@media (max-width: 900px) { .github-min .main-grid { grid-template-columns: 1fr; } }
+
+.repo-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+.repo-card { background: var(--card-bg); border: 1px solid var(--border-color); padding:12px; border-radius:10px; text-decoration:none; color:inherit; transition: box-shadow .18s ease, transform .18s ease; }
+.repo-card:hover { transform: translateY(-5px); box-shadow: 0 14px 34px rgba(0,0,0,0.24); border-color: var(--accent); }
+.repo-title { font-weight:600; font-size:14px; }
+.repo-desc { font-size:13px; color:var(--text-muted); margin-top:6px; }
+.repo-meta { display:flex; justify-content:space-between; font-size:12px; color:var(--text-muted); margin-top:10px; }
+
+.lang-bar { height:8px; background:rgba(255,255,255,0.06); border-radius:999px; overflow:hidden; }
+.lang-fill { height:8px; background:var(--accent); border-radius:999px; }
+
+.activity-list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px; }
+.activity-item { display:flex; gap:10px; align-items:flex-start; }
+.activity-dot { width:8px; height:8px; border-radius:99px; background:var(--accent); margin-top:6px; }
+.activity-text { font-size:13px; color:var(--text-secondary); }
+.activity-time { font-size:12px; color:var(--text-muted); }
+

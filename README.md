@@ -9,3 +9,36 @@ I'm actively seeking opportunities as a **DevOps Engineer, Cloud Engineer, Platf
 🌐 **Portfolio:** https://aditya-devops-portfolio.vercel.app  | 
 💻 **GitHub:** https://github.com/adityapujari854  | 
 🔗 **LinkedIn:** https://www.linkedin.com/in/adityapujari854/
+
+## GitHub section (automatic)
+
+The portfolio includes a GitHub section that fetches your profile, top repositories, recent activity, a contribution calendar and language breakdown from the GitHub API.
+
+Quick setup:
+
+1. Install required packages:
+
+```bash
+npm install axios react-github-calendar
+# optional icons
+npm install react-icons
+```
+
+2. Add environment variables. Copy the example and edit values:
+
+```
+cp .env.local.example .env.local
+# then edit .env.local if needed
+```
+
+If you need higher rate limits, create a fine-grained personal access token and add `GITHUB_TOKEN` to `.env.local`. Do NOT commit tokens to the repo.
+
+3. Run the dev server:
+
+```bash
+npm run dev
+```
+
+The GitHub UI is implemented in `components/Github/*`. The server-side proxy route is `app/api/github/route.ts` which uses `lib/github.ts` to call the GitHub API (keeps tokens server-side).
+
+If you want, I can further polish animations, add unit tests, or add storybook snapshots.
