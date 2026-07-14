@@ -37,11 +37,11 @@ export default function Page() {
           <Projects />
         </AnimatedSection>
       </section>
-      <section id="github" style={{ marginTop: 48 }}>
+      {/* <section id="github" style={{ marginTop: 48 }}>
         <AnimatedSection delay={0.2}>
           <GithubSection />
         </AnimatedSection>
-      </section>
+      </section> */}
       {/* <section id="experience" style={{ marginTop: 48 }}>
         <AnimatedSection delay={0.2}>
           <Experience />
