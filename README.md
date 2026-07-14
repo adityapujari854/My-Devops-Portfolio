@@ -1,9 +1,11 @@
 ## 👋 About Me
 
-Hi, I'm **Aditya Pujari**, a Final-Year Computer Engineering student passionate about **AWS Cloud, DevOps, Site Reliability Engineering (SRE), and AI-assisted Engineering**. I enjoy building scalable cloud-native applications, automating deployments, and creating reliable infrastructure using modern DevOps practices.
+Hi, I'm **Aditya Pujari**, a Final-Year Computer Engineering student passionate about **AWS Cloud, DevOps, Site Reliability Engineering (SRE), Cloud Infrastructure, and AI-assisted Engineering**. I enjoy designing scalable cloud-native applications, automating deployments, building CI/CD pipelines, and implementing modern DevOps practices using **AWS, Docker, Docker Compose, Kubernetes, Terraform, GitHub Actions, Jenkins, Linux, Nginx, Prometheus, Grafana, Python, and Bash**.
 
-My experience includes working with **AWS, Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, Linux, Nginx, Prometheus, Grafana, Python, and Bash** to build production-inspired projects. I'm also exploring **AI-powered DevOps (AIOps)** by integrating tools like **ChatGPT, GitHub Copilot, Cursor AI, Claude, and Gemini** to improve development productivity, debugging, documentation, and automation workflows.
+My projects focus on real-world cloud engineering, including an **AI DevOps Assistant**, **Nimbus AI Platform**, **Terraform-based AWS Infrastructure**, **Kubernetes Monitoring Stack**, and **production-style CI/CD pipelines**. I also leverage **ChatGPT, GitHub Copilot, Cursor AI, Claude, and Gemini** to enhance development productivity, debugging, documentation, and automation while following engineering best practices.
 
-Some of my key projects include an **AI DevOps Assistant** for intelligent troubleshooting, the **Nimbus AI Platform** with Dockerized deployment and CI/CD automation, **Terraform-based AWS Infrastructure**, **Kubernetes Monitoring Stack**, and **Jenkins CI/CD Pipelines**.
+I'm actively seeking opportunities as a **DevOps Engineer, Cloud Engineer, Platform Engineer, or Site Reliability Engineer**, where I can contribute to building secure, scalable, and automated cloud infrastructure.
 
-I'm currently seeking opportunities as a **DevOps Engineer, Cloud Engineer, Platform Engineer, or Site Reliability Engineer**, where I can contribute to building secure, scalable, and automated cloud infrastructure while continuously learning modern DevOps technologies.
+🌐 **Portfolio:** https://aditya-devops-portfolio.vercel.app
+💻 **GitHub:** https://github.com/adityapujari854
+🔗 **LinkedIn:** https://www.linkedin.com/in/adityapujari854/
