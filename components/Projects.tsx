@@ -32,10 +32,8 @@ export default function Projects() {
               </div>
             </div>
 
-            <div style={{ marginTop: 12, display: 'flex', gap: 12 }}>
-              {p.github && <a href={p.github} style={{ color: 'var(--accent)', fontSize: 13, textDecoration: 'none' }}>Code</a>}
-              {p.demo && <a href={p.demo} style={{ color: 'var(--accent)', fontSize: 13, textDecoration: 'none' }}>Live Demo</a>}
-            </div>
+            <div style={{ marginTop: 12 }}
+             />
           </div>
         ))}
       </div>
