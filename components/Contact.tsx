@@ -35,8 +35,8 @@ export default function Contact() {
   return (
     <div className="glass">
       <h2 style={{ fontSize: 24, fontWeight: 600, color: 'var(--text-primary)' }}>Contact</h2>
-      <p style={{ marginTop: 8, color: 'var(--text-secondary)' }}>Email: aditya@example.com</p>
-      <p style={{ marginTop: 4, color: 'var(--text-secondary)' }}>LinkedIn: <a href="#" style={{ color: 'var(--accent)' }}>linkedin.com/in/adityapujari</a></p>
+      <p style={{ marginTop: 8, color: 'var(--text-secondary)' }}>Email: <a href="mailto:adityapujari542@gmail.com" style={{ color: 'var(--accent)' }}>adityapujari542@gmail.com</a></p>
+      <p style={{ marginTop: 4, color: 'var(--text-secondary)' }}>LinkedIn: <a href="https://www.linkedin.com/in/adityapujari854" style={{ color: 'var(--accent)' }}>linkedin.com/in/adityapujari854</a></p>
       <div style={{ marginTop: 16 }}>
         <form onSubmit={sendEmail} style={{ display: 'grid', gap: 12, maxWidth: 480 }}>
           <input
