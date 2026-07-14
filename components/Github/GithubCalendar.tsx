@@ -11,7 +11,7 @@ export default function GithubCalendarComponent({ username }: { username: string
       try {
         const mod = await import("react-github-calendar");
         if (!mounted) return;
-        setCalendarComp(() => mod.default || mod);
+        setCalendarComp(() => mod.GitHubCalendar || mod.default || mod);
         setAvailable(true);
       } catch (err) {
         // package not installed or failed to load

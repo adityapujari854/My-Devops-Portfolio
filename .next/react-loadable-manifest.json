@@ -1,1 +1,14 @@
-{}
+{
+  "components\\Github\\GithubCalendar.tsx -> react-github-calendar": {
+    "id": "components\\Github\\GithubCalendar.tsx -> react-github-calendar",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_react-github-calendar_build_index_js.js"
+    ]
+  },
+  "node_modules\\react-activity-calendar\\build\\chunks\\index-B3Gga1-_.js -> ./Tooltip-D5idU7TC.js": {
+    "id": "node_modules\\react-activity-calendar\\build\\chunks\\index-B3Gga1-_.js -> ./Tooltip-D5idU7TC.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_react-activity-calendar_build_chunks_Tooltip-D5idU7TC_js.js"
+    ]
+  }
+}
