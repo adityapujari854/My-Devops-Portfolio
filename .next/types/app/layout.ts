@@ -1,4 +1,4 @@
-// File: C:\Users\adity\Documents\DEVOPS porfolio\app\layout.tsx
+// File: C:\Users\adity\Documents\GitHub\My Devops Portfolio\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

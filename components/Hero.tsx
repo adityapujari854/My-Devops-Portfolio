@@ -46,7 +46,7 @@ export default function Hero() {
           }}>
             Resume
           </a>
-          <a href="https://github.com" style={{
+          <a href="https://github.com/adityapujari854" target="_blank" rel="noopener noreferrer" style={{
             padding: '12px 24px',
             background: 'transparent',
             border: '1px solid var(--border-color)',
@@ -58,7 +58,7 @@ export default function Hero() {
           }}>
             GitHub
           </a>
-          <a href="https://linkedin.com" style={{
+          <a href="https://www.linkedin.com/in/adityapujari854" target="_blank" rel="noopener noreferrer" style={{
             padding: '12px 24px',
             background: 'transparent',
             border: '1px solid var(--border-color)',
