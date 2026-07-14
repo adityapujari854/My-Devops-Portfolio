@@ -9,7 +9,7 @@ export default function GithubCalendarComponent({ username }: { username: string
     let mounted = true;
     async function load() {
       try {
-        const mod = await import("react-github-calendar");
+        const mod = (await import("react-github-calendar")) as any;
         if (!mounted) return;
         setCalendarComp(() => mod.GitHubCalendar || mod.default || mod);
         setAvailable(true);
