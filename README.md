@@ -6,6 +6,6 @@ My projects focus on real-world cloud engineering, including an **AI DevOps Assi
 
 I'm actively seeking opportunities as a **DevOps Engineer, Cloud Engineer, Platform Engineer, or Site Reliability Engineer**, where I can contribute to building secure, scalable, and automated cloud infrastructure.
 
-🌐 **Portfolio:** https://aditya-devops-portfolio.vercel.app
-💻 **GitHub:** https://github.com/adityapujari854
+🌐 **Portfolio:** https://aditya-devops-portfolio.vercel.app |
+💻 **GitHub:** https://github.com/adityapujari854 |
 🔗 **LinkedIn:** https://www.linkedin.com/in/adityapujari854/
