@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <div>
       <h2 style={{ fontSize: 28, fontWeight: 700, marginBottom: 32, color: 'var(--text-primary)' }}>Skills & Technologies</h2>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
+      <div className="responsive-grid">
         {skills.map((cat) => (
           <div key={cat.title} className="glass">
             <h3 style={{ fontSize: 16, fontWeight: 600, marginBottom: 16, color: 'var(--accent)' }}>{cat.title}</h3>

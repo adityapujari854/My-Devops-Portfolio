@@ -313,6 +313,17 @@ a:hover {
     max-width: 100% !important;
     max-height: 240px !important;
   }
+
+  /* Hero section padding for small mobile */
+  .hero-section {
+    padding-top: 110px !important;
+  }
+
+  /* Show 2 cards per row on mobile - using smaller padding/gap */
+  [style*="gridTemplateColumns: 'repeat(auto-fit, minmax(300px"]:not(.repo-grid) {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)) !important;
+    gap: 10px !important;
+  }
 }
 
 .page-wrapper {
@@ -440,7 +451,7 @@ a:hover {
 
   .hero-section {
     grid-template-columns: 1fr;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 32px;
   }
 
@@ -463,11 +474,16 @@ a:hover {
   .contact-form {
     max-width: 100%;
   }
+
+  /* Responsive grid for cards - show 2 per row on tablet */
+  [style*="gridTemplateColumns: 'repeat(auto-fit, minmax(300px"]:not(.repo-grid) {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 }
 
 @media (max-width: 600px) {
   .hero-section {
-    padding-top: 48px;
+    padding-top: 100px;
     gap: 32px;
   }
 
@@ -475,6 +491,12 @@ a:hover {
     top: 8px;
     padding: 10px 12px;
     border-radius: 10px;
+  }
+
+  /* Show 2 cards per row on smaller tablets */
+  [style*="gridTemplateColumns: 'repeat(auto-fit, minmax(300px"]:not(.repo-grid) {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 12px !important;
   }
 }
 
@@ -573,4 +595,53 @@ a:hover {
 .activity-dot { width:8px; height:8px; border-radius:99px; background:var(--accent); margin-top:6px; }
 .activity-text { font-size:13px; color:var(--text-secondary); }
 .activity-time { font-size:12px; color:var(--text-muted); }
+
+/* Responsive Grid for Cards */
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.responsive-grid-achievement {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .responsive-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  .responsive-grid-achievement {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .responsive-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+  .responsive-grid-achievement {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+  }
+  
+  .responsive-grid-achievement {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 8px;
+  }
+}
 

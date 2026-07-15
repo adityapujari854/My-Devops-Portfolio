@@ -22,7 +22,7 @@ export default function Achievements() {
   return (
     <div>
       <h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 24, color: 'var(--text-primary)' }}>Achievements</h2>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: 16 }}>
+      <div className="responsive-grid-achievement">
         {achievements.map((ach, idx) => (
           <div key={idx} className="glass" style={{ textAlign: 'center', padding: 24 }}>
             <div style={{ fontSize: 36, fontWeight: 700, color: 'var(--accent)' }}>

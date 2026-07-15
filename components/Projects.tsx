@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div>
       <h2 style={{ fontSize: 24, fontWeight: 600, marginBottom: 24, color: 'var(--text-primary)' }}>Featured Projects</h2>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
+      <div className="responsive-grid">
         {projects.map((p) => (
           <div key={p.title} className="glass" style={{ display: 'flex', flexDirection: 'column' }}>
             <div style={{ background: 'var(--card-bg)', height: 160, borderRadius: 8, marginBottom: 12 }} />
