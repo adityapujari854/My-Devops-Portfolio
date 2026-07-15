@@ -56,9 +56,9 @@ export default function Contact() {
           <textarea
             name="message"
             placeholder="Message"
-            rows={4}
+            rows={3}
             required
-            style={{ padding: 10, borderRadius: 8, border: '1px solid var(--border-color)', background: 'var(--input-bg)', color: 'var(--text-primary)' }}
+            style={{ padding: 10, borderRadius: 8, border: '1px solid var(--border-color)', background: 'var(--input-bg)', color: 'var(--text-primary)', resize: 'vertical', maxHeight: 200 }}
           />
           <button
             type="submit"
