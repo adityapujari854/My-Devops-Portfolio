@@ -15,25 +15,8 @@ export default function Navbar() {
   ];
 
   return (
-    <nav style={{
-      position: 'fixed',
-      top: 16,
-      left: '50%',
-      transform: 'translateX(-50%)',
-      width: '92%',
-      maxWidth: 1000,
-      zIndex: 50,
-      background: 'var(--navbar-bg)',
-      backdropFilter: 'blur(8px)',
-      border: '1px solid var(--border-color)',
-      borderRadius: 12,
-      padding: '12px 20px',
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      transition: 'all 0.3s ease'
-    }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+    <nav className="navbar">
+      <div className="brand">
         <img
           src="/profile.jpg"
           alt="Aditya"
@@ -48,7 +31,7 @@ export default function Navbar() {
         <span style={{ fontWeight: 600, fontSize: 16, color: 'var(--text-primary)' }}>Aditya</span>
       </div>
       
-      <div style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
+      <div className="navbar-links">
         {links.map((l) => (
           <a key={l.href} href={l.href} style={{ fontSize: 13, color: 'var(--text-secondary)', textDecoration: 'none', transition: 'color 0.3s ease' }}>
             {l.label}
@@ -56,7 +39,7 @@ export default function Navbar() {
         ))}
       </div>
       
-      <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
+      <div className="navbar-actions">
         <button
           onClick={toggleTheme}
           className="theme-toggle"

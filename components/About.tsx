@@ -4,12 +4,12 @@ export default function About() {
   return (
     <div className="glass">
       <h2 style={{ fontSize: 28, fontWeight: 700, marginBottom: 24, color: 'var(--text-primary)' }}>About Me</h2>
-      <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr', gap: 32, alignItems: 'center' }}>
+      <div className="about-grid">
         <div>
           <p style={{ fontSize: 16, lineHeight: 1.8, marginBottom: 20, color: 'var(--text-secondary)' }}>
             Final-year Computer Engineering student seeking roles in DevOps, Cloud, SRE, or Platform Engineering. Experienced with AWS, Docker, Kubernetes, Terraform, Linux, Jenkins, GitHub Actions, monitoring tools, automation, Python scripting, and AI-assisted development workflows.
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+          <div className="about-stats-grid">
             <div style={{
               padding: 12,
               background: 'var(--accent-soft)',
@@ -43,11 +43,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center'
-        }}>
+        <div className="about-profile">
           <div style={{
             borderRadius: 12,
             overflow: 'hidden',

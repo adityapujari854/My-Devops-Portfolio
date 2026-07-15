@@ -3,15 +3,8 @@ import Terminal from './Terminal';
 
 export default function Hero() {
   return (
-    <div style={{
-      display: 'grid',
-      gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)',
-      gap: 48,
-      alignItems: 'center',
-      paddingTop: 100,
-      paddingBottom: 48
-    }}>
-      <div>
+    <div className="hero-section">
+      <div className="hero-copy">
         <h1 style={{ fontSize: 56, fontWeight: 800, lineHeight: 1.2, marginBottom: 16, color: 'var(--text-primary)' }}>
           Aditya Pujari
         </h1>
@@ -21,7 +14,7 @@ export default function Hero() {
         <p style={{ fontSize: 16, color: 'var(--text-secondary)', lineHeight: 1.8, maxWidth: 520, marginBottom: 24 }}>
           I build cloud-native applications, automate deployments, and leverage AI-assisted engineering to create scalable production systems. Passionate about DevOps, Infrastructure as Code, and solving operational challenges.
         </p>
-        <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
+        <div className="hero-cta" style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
           <a href="#projects" style={{
             padding: '12px 24px',
             background: 'var(--accent-soft)',

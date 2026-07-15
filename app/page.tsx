@@ -15,7 +15,7 @@ import AnimatedSection from '../components/AnimatedSection';
 
 export default function Page() {
   return (
-    <main style={{ maxWidth: 1200, margin: '0 auto', padding: 24 }}>
+    <main className="page-wrapper">
       <Navbar />
       <section id="hero" style={{ marginTop: 24 }}>
         <AnimatedSection delay={0.1}>

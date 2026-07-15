@@ -38,7 +38,7 @@ export default function Contact() {
       <p style={{ marginTop: 8, color: 'var(--text-secondary)' }}>Email: <a href="mailto:adityapujari542@gmail.com" style={{ color: 'var(--accent)' }}>adityapujari542@gmail.com</a></p>
       <p style={{ marginTop: 4, color: 'var(--text-secondary)' }}>LinkedIn: <a href="https://www.linkedin.com/in/adityapujari854" style={{ color: 'var(--accent)' }}>linkedin.com/in/adityapujari854</a></p>
       <div style={{ marginTop: 16 }}>
-        <form onSubmit={sendEmail} style={{ display: 'grid', gap: 12, maxWidth: 480 }}>
+        <form onSubmit={sendEmail} className="contact-form" style={{ display: 'grid', gap: 12, maxWidth: 480 }}>
           <input
             type="text"
             name="name"
