@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import projects from '../data/projects';
 
 export default function Projects() {
@@ -8,7 +9,9 @@ export default function Projects() {
       <div className="responsive-grid">
         {projects.map((p) => (
           <div key={p.title} className="glass" style={{ display: 'flex', flexDirection: 'column' }}>
-            <div style={{ background: 'var(--card-bg)', height: 160, borderRadius: 8, marginBottom: 12 }} />
+            <div style={{ position: 'relative', height: 160, borderRadius: 8, overflow: 'hidden', marginBottom: 12 }}>
+              <Image src={p.image} alt={p.title} fill style={{ objectFit: 'cover' }} />
+            </div>
             <h3 style={{ fontSize: 18, fontWeight: 700, color: 'var(--text-primary)' }}>{p.title}</h3>
             <p style={{ color: 'var(--text-secondary)', marginTop: 8, flexGrow: 1 }}>{p.description}</p>
 

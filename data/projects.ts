@@ -2,7 +2,7 @@ const projects = [
   {
     title: 'Nimbus AI – Multi-Agent System',
     description: 'Built AI application using FastAPI and Docker for conversational workflows with integrated ChromaDB for memory storage and contextual retrieval.',
-    image: '/projects/nimbus.jpg',
+    image: '/images/projects/nimbus.png',
     features: [
       'Conversational Workflows',
       'FastAPI APIs',
@@ -16,7 +16,7 @@ const projects = [
   {
     title: 'CI/CD Pipeline with Jenkins',
     description: 'Built CI/CD pipeline using Jenkins and GitHub reducing manual deployment steps by 50% with automated build and deployment workflows on AWS EC2.',
-    image: '/projects/cicd-jenkins.jpg',
+    image: '/images/projects/cicd-jenkins.png',
     features: [
       'Jenkins Automation',
       '50% Manual Step Reduction',
@@ -30,7 +30,7 @@ const projects = [
   {
     title: 'Kubernetes Monitoring Stack',
     description: 'Production-ready monitoring solution with Prometheus, Grafana, and Alertmanager for comprehensive cluster observability.',
-    image: '/projects/monitoring.jpg',
+    image: '/images/projects/monitoring.png',
     features: [
       'Prometheus Metrics',
       'Grafana Dashboards',
